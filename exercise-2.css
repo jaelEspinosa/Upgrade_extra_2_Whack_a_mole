@@ -1,0 +1,56 @@
+
+
+.b-square {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #000000;
+    background-image: url(public/exercise-2/bg.jpg);
+}
+
+.b-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+
+.b-mole {
+    background-image: url('public/exercise-2/mole.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.marcador{
+    margin-bottom: 25px;
+    background: gray;
+    border-radius: 10px;
+    padding:25px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 18px black;
+    gap:150px;
+    width: 570px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button{
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+   }
+.button button{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: green;
+}   
+.time, .puntos {
+    margin:8px;
+    padding: 0px 10px 0px 10px;
+    background-color: rgb(161, 156, 156);
+    display: flex;
+    gap: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
