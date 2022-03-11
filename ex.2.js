@@ -26,7 +26,7 @@ function hideMole() {
       square$$[index].classList.remove("b-mole");
     }
     showMole();
-  }, 300);
+  }, 500);
 }
 
 function lefTime() {
