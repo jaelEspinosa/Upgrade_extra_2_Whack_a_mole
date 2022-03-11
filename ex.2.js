@@ -8,7 +8,7 @@ start$$.addEventListener("click", gameStart);
 for (const element of square$$) {
   element.addEventListener('click', () =>{
     addScore(element)
-  }); 
+  })
 };
 
 
@@ -26,7 +26,7 @@ function hideMole() {
       square$$[index].classList.remove("b-mole");
     }
     showMole();
-  }, 500);
+  }, 300);
 }
 
 function lefTime() {
@@ -43,6 +43,8 @@ function lefTime() {
 function endGame() {
   start$$.disabled = false;
   start$$.innerHTML = "JUEGA OTRA VEZ";
+  score = 0;
+  score$$.innerHTML = 0;
   timeLeft$$.innerHTML = 30;
   alert("Se acabó el tiempo");
 }
